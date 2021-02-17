@@ -1,0 +1,32 @@
+2021-02-17 14:06:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTMORS" が見つかりません
+Table "CUSTMORS" not found; SQL statement:
+select * from custmors [42102-200]
+2021-02-17 14:07:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" が見つかりません
+Table "CUSTOMERS" not found; SQL statement:
+select * from customers [42102-200]
+2021-02-17 14:07:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" が見つかりません
+Table "CUSTOMERS" not found; SQL statement:
+select * from customers [42102-200]
+2021-02-17 14:07:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" が見つかりません
+Table "CUSTOMERS" not found; SQL statement:
+select * from customers [42102-200]
+2021-02-17 14:09:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" が見つかりません
+Table "CUSTOMERS" not found; SQL statement:
+select * from customers [42102-200]
+2021-02-17 14:11:20 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" が見つかりません
+Table "CUSTOMERS" not found; SQL statement:
+select * from customers [42102-200]
+2021-02-17 14:18:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" が見つかりません
+Table "CUSTOMERS" not found; SQL statement:
+select * from customers [42102-200]
+2021-02-17 14:23:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "CUSTOMERS" はすでに存在します
+Table "CUSTOMERS" already exists; SQL statement:
+CREATE TABLE customers(id SERIAL, first_name VARCHAR(255), last_name VARCHAR(255)) [42101-200]

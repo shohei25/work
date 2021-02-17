@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TaskController {
+	// アプリケーションの起動から1秒後に実行する。(それ以降は実行開始から5秒後に定期実行する)
+	@Scheduled(initialDelay = 1000, fixedRate = 5000)
+	public void taskInitialDelay() {
+		System.out.println("initialDelay");
+	}
+
+}

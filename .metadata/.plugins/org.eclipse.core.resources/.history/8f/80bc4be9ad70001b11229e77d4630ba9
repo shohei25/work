@@ -1,0 +1,19 @@
+package com.example.demo;
+
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TaskController {
+	// 実行開始から5秒後に定期実行する
+	@Scheduled(fixedRate = 5000)
+	public void taskInitialDelay() {
+		System.out.println("initialDelay");
+	}
+	
+	@Scheduled(cron = "${task2}")
+	public void task2() {
+		System.out.println("Hello World!!");
+	}
+
+}
